@@ -1,0 +1,1 @@
+En esta sección deben ir los archivos del imagenes proyecto para mantener un estandar
