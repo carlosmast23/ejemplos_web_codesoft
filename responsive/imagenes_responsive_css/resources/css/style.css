@@ -1,0 +1,35 @@
+/* En esta seccion van todos los estilos que se definan con la pagina */
+body
+{
+	background-color:white;
+	
+}
+
+/*Propiedades por defecto para las propiedades generales para no escribir en cada propiedad de cada resolucion*/
+.propiedades_div
+{
+	background-size: 100% 100%;
+	height:100vh;
+	width:100vw;
+	
+}
+
+/* Css por defecto para los dispositivos mas pequeños*/
+.imagen
+{
+	background-image: url('../img/img_sd.jpg');	
+}	
+/* Css por defecto para los dispositivos medianos */
+@media (min-width: 600px) {
+  .imagen {
+    background-image: url('../img/img_md.jpg');
+  }
+}
+
+/* Css por defecto para los dispositivos grandes */
+@media (min-width: 1000px) {
+  .imagen {
+    background-image: url('../img/img_hd.jpg');
+  }
+}
+	
