@@ -1,0 +1,27 @@
+/* En esta seccion van todos los estilos que se definan con la pagina */
+
+.propiedades_div
+{
+	/* Agrego una imagen de fondo y la coloco con la propiedad size 100 para visualizar todo en el espacio del bloque */
+	background-image:url('../img/banner.png');
+	background-size: 100%;
+	/* EStablecer ancho y alto en dimensiones en proporcion a la parte visible de la pantalla que va dede 0 a 100 como porcentajes */
+	width:30vw;
+	height:30vh;	
+}
+
+.mascara
+{
+	
+	/*Establece la imagen que se va a usar de mascara */
+	-webkit-mask: url('../img/mascara.png');
+	/*Permite establecer todo el ancho y alto de la mascara*/
+	-webkit-mask-size:100% 100%;
+	/* Permite que la mascara este centrada */
+	-webkit-mask-position:center;
+	/*Permite que solo se muestre una vez la mascara y no como tapiz*/
+	-webkit-mask-repeat:no-repeat;	
+	/* Agrego adicional esta propiedad para que sea compatible con otros navegadores*/
+	mask-image: url('../img/mascara.png');
+	
+}
